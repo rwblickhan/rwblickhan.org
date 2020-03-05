@@ -1,0 +1,67 @@
+header {
+    background-color: #000000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 88%;
+    position: fixed;
+}
+
+header a {
+    text-decoration: none;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.title {
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.subtitle {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.body {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#header-content {
+    position: absolute;
+    height: 100%;
+    left: 75px;
+    right: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#header-spacer {
+    width: 75px;
+}
+
+#main-content {
+    top: 88%;
+    bottom: 0;
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+}
