@@ -1,0 +1,171 @@
+/* Typography */
+
+header a {
+    text-decoration: none;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.title {
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.subtitle {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.body {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+
+.body p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.body a {
+    text-decoration: none;
+    color: #2f68b3;
+}
+
+.body a:hover {
+    text-decoration: underline;
+}
+
+.body h1 {
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: normal;
+}
+
+.body h2 {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: normal;
+}
+
+/* Mobile Typography */
+
+@media only screen and (max-width: 767px) {
+    .title {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    
+    .subtitle {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    .body p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
+    .body h1 {
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: normal;
+    }
+
+    .body h2 {
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: normal;
+    }
+}
+
+/* Layout */
+
+header {
+    background-color: #000000;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6rem;
+    position: fixed;
+}
+
+#header-content {
+    position: absolute;
+    height: 100%;
+    left: 3rem;
+    right: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#header-spacer {
+    width: 3rem;
+}
+
+#main-content {
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Force code blocks to wrap*/
+pre {
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+/* Inspired by https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/*/
+blockquote {
+    background: #f9f9f9;
+    border-left: 0.5em solid #ccc;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+blockquote p {
+    display: inline;
+}
+
+/* Mobile Layout */
+
+@media only screen and (max-width: 767px) {
+    header {
+        position: absolute
+    }
+    
+    #header-content {
+        position: absolute;
+        left: 1rem;
+        right: 1rem;
+    }
+    
+    #header-spacer {
+        width: 1rem;
+    }
+    
+    #main-content {
+        margin-left: 1em;
+        margin-right: 1em;
+        width: auto;
+    }
+}

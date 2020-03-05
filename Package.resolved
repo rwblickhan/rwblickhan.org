@@ -15,17 +15,26 @@
         "repositoryURL": "https://github.com/johnsundell/files.git",
         "state": {
           "branch": null,
-          "revision": "941052daf1c0aa6999343ee899dd3d743c86f211",
-          "version": "4.1.0"
+          "revision": "22fe84797d499ffca911ccd896b34efaf06a50b9",
+          "version": "4.1.1"
         }
       },
       {
         "package": "Ink",
-        "repositoryURL": "https://github.com/johnsundell/ink.git",
+        "repositoryURL": "https://github.com/rustle/ink.git",
         "state": {
-          "branch": null,
-          "revision": "c88bbce588a1ebfde2cf4d61eb9865a3edaa27d4",
-          "version": "0.2.0"
+          "branch": "master",
+          "revision": "fd5747236991818da11160e772292bb92913ced5",
+          "version": null
+        }
+      },
+      {
+        "package": "LoggerKit",
+        "repositoryURL": "https://github.com/pvieito/LoggerKit.git",
+        "state": {
+          "branch": "master",
+          "revision": "ef47fd965cc1b78ddfd6c2907535cbfd66920444",
+          "version": null
         }
       },
       {
@@ -33,17 +42,44 @@
         "repositoryURL": "https://github.com/johnsundell/plot.git",
         "state": {
           "branch": null,
-          "revision": "00bd4d695b20dba3ec7a09997c5817e55feb8893",
-          "version": "0.4.0"
+          "revision": "61e828949ca6f84071bde65c8fc046cf74b7d1a2",
+          "version": "0.8.0"
         }
       },
       {
         "package": "Publish",
-        "repositoryURL": "https://github.com/johnsundell/publish.git",
+        "repositoryURL": "https://github.com/rwblickhan/publish.git",
+        "state": {
+          "branch": "master",
+          "revision": "9cc50285acbf1c9297ba2c1e11fd96b19d30efa7",
+          "version": null
+        }
+      },
+      {
+        "package": "PythonKit",
+        "repositoryURL": "https://github.com/pvieito/PythonKit.git",
+        "state": {
+          "branch": "master",
+          "revision": "a0817e0d68f0a50a631fc5fab0b8d219fd010241",
+          "version": null
+        }
+      },
+      {
+        "package": "Rainbow",
+        "repositoryURL": "https://github.com/onevcat/Rainbow",
         "state": {
           "branch": null,
-          "revision": "105089cea89876e19e412574082b20fc3f37108a",
-          "version": "0.2.0"
+          "revision": "9c52c1952e9b2305d4507cf473392ac2d7c9b155",
+          "version": "3.1.5"
+        }
+      },
+      {
+        "package": "S3PublishDeploy",
+        "repositoryURL": "https://github.com/johnbehnke/s3publishdeploy",
+        "state": {
+          "branch": null,
+          "revision": "9111612255c1984f2fca07681f763391d30eea45",
+          "version": "0.1.0"
         }
       },
       {
@@ -51,8 +87,8 @@
         "repositoryURL": "https://github.com/johnsundell/shellout.git",
         "state": {
           "branch": null,
-          "revision": "4ebf25863deb9c3c02696704fc3d39736183f258",
-          "version": "2.2.1"
+          "revision": "e1577acf2b6e90086d01a6d5e2b8efdaae033568",
+          "version": "2.3.0"
         }
       },
       {
@@ -60,8 +96,35 @@
         "repositoryURL": "https://github.com/johnsundell/sweep.git",
         "state": {
           "branch": null,
-          "revision": "d357d12c9558e51f037bf2f956d5cf6c73dc0d44",
-          "version": "0.3.0"
+          "revision": "801c2878e4c6c5baf32fe132e1f3f3af6f9fd1b0",
+          "version": "0.4.0"
+        }
+      },
+      {
+        "package": "swift-argument-parser",
+        "repositoryURL": "https://github.com/apple/swift-argument-parser",
+        "state": {
+          "branch": null,
+          "revision": "223d62adc52d51669ae2ee19bdb8b7d9fd6fcd9c",
+          "version": "0.0.6"
+        }
+      },
+      {
+        "package": "SwiftPygments",
+        "repositoryURL": "https://github.com/Ze0nC/SwiftPygments",
+        "state": {
+          "branch": "master",
+          "revision": "c22bcfcc5931db56c971c1d2722de856a8bfaf39",
+          "version": null
+        }
+      },
+      {
+        "package": "SwiftPygmentsPublishPlugin",
+        "repositoryURL": "https://github.com/Ze0nC/SwiftPygmentsPublishPlugin",
+        "state": {
+          "branch": "master",
+          "revision": "9280f5d55a4a7600cef2e08078ec456ab345904c",
+          "version": null
         }
       }
     ]

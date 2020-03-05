@@ -1,0 +1,6 @@
+[submodule "Resources/RWBlickhanOrgTheme/Fira"]
+	path = Resources/RWBlickhanOrgTheme/Fira
+	url = https://github.com/mozilla/Fira.git
+[submodule "Resources/theme/Fira"]
+	path = Resources/theme/Fira
+	url = https://github.com/mozilla/Fira.git
