@@ -4,7 +4,7 @@
 
 They had found the Factory in the darkened valley of an airless moon.
 
-It was artificial, that much was certain, unless some unknown natural phenomenon could shape geometrically perfect tunnels and fashion metallic instruments with apparent clarity of purpose. Yet there was nary a mark of the makers, save one wall, containing a bizarre mural, or perhaps it was a message, written in alien characters presumed to have no human meaning---the Diagram.
+It was artificial, that much was certain, unless some unknown natural phenomenon could shape geometrically perfect tunnels and fashion metallic instruments with apparent clarity of purpose. Yet there was nary a mark of the makers, save one wall, containing a bizarre mural, or perhaps it was a message, written in alien characters presumed to have no human meaning—the Diagram.
 
 The discovery of such distinctly alien artifacts was a cause of no small amount of celebration in some circles, especially among those who had tried, with only moderate success, to convince their peers of the validity of the many smaller artifacts that had been brought home over the years. Their celebration was only mildly dampened when tests showed the Factory had laid undisturbed for many millions of years—that they were, in fact, older still than the human race itself, older even than the primitive mammals that scurried about in the shadow of the tyrant lizards, perhaps older even than the most distant of multicellular progenitors.
 

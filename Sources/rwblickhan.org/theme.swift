@@ -23,6 +23,7 @@ private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
                 "/theme/styles.css",
                 "/theme/pygments.css",
                 "/theme/Fira/fira.css",
+                "/theme/Vollkorn/vollkorn.css",
             ]),
             .body(
                 .header(for: context.site),
@@ -36,6 +37,7 @@ private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
                 "/theme/styles.css",
                 "/theme/pygments.css",
                 "/theme/Fira/fira.css",
+                "/theme/Vollkorn/vollkorn.css",
             ]),
             .body(
                 .header(for: context.site),
@@ -49,6 +51,7 @@ private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
                 "/theme/styles.css",
                 "/theme/pygments.css",
                 "/theme/Fira/fira.css",
+                "/theme/Vollkorn/vollkorn.css",
             ]),
             .body(
                 .header(for: context.site),
@@ -62,6 +65,7 @@ private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
                 "/theme/styles.css",
                 "/theme/pygments.css",
                 "/theme/Fira/fira.css",
+                "/theme/Vollkorn/vollkorn.css",
             ]),
             .body(
                 .header(for: context.site),

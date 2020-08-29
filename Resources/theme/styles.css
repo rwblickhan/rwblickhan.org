@@ -2,7 +2,7 @@
 
 header a {
     text-decoration: none;
-    font-family: Fira Sans;
+    font-family: Vollkorn;
     font-style: normal;
     font-weight: normal;
     color: #FFFFFF;
@@ -23,7 +23,7 @@ header a:hover {
 }
 
 .body {
-    font-family: Fira Sans;
+    font-family: Vollkorn;
     font-style: normal;
     font-weight: normal;
     color: #000000;
@@ -118,7 +118,7 @@ header {
 }
 
 #main-content {
-    margin-top: 7rem;
+    margin-top: 8rem;
     margin-bottom: 2rem;
     margin-left: auto;
     margin-right: auto;
