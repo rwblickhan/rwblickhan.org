@@ -55,6 +55,11 @@ header a:hover {
     font-weight: normal;
 }
 
+/* Fix stretched line height for subscripts and superscripts */
+sub, sup {
+  line-height: 0;
+}
+
 /* Mobile Typography */
 
 @media only screen and (max-width: 767px) {
@@ -125,7 +130,7 @@ header {
     width: 50%;
 }
 
-/* Force code blocks to wrap*/
+/* Force code blocks to wrap */
 pre {
     white-space: pre-wrap;       /* css-3 */
     white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
@@ -134,7 +139,7 @@ pre {
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 
-/* Inspired by https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/*/
+/* Inspired by https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
 blockquote {
     background: #f9f9f9;
     border-left: 0.5em solid #ccc;
@@ -146,6 +151,7 @@ blockquote p {
     display: inline;
 }
 
+/* Solid-line section breaks */
 hr.solid {
   border-top: 0.1rem solid #fff;
 }
