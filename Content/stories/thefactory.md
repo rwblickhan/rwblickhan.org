@@ -1,6 +1,6 @@
 # The Factory
 
-> A short horror story.
+> A short cosmic horror story.
 
 They had found the Factory in the darkened valley of an airless moon.
 
