@@ -30,7 +30,7 @@ This is a list of various sites, textbooks, and tools that I've personally found
 
 ## iOS/Swift
 
-* [*Hacking with Swift*](https://www.hackingwithswift.com): Paul Hudon's site is the "user manual you didn't know you needed" for iOS programming. His ["100 Days of Swift"](https://www.hackingwithswift.com/100) and ["100 Days of SwiftUI"](https://www.hackingwithswift.com/100/swiftui) are both highly recommended for beginners.
+* [*Hacking with Swift*](https://www.hackingwithswift.com): Paul Hudson's site is the "user manual you didn't know you needed" for iOS programming. His ["100 Days of Swift"](https://www.hackingwithswift.com/100) and ["100 Days of SwiftUI"](https://www.hackingwithswift.com/100/swiftui) are both highly recommended for beginners.
 
 ## Tools
 
