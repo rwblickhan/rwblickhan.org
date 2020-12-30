@@ -13,7 +13,11 @@ I sometimes write [fiction](/stories).
 
 ## 52 Books
 
-I try to read [52 books per year](/52books). This year's list can be found [here](/52books/2020).
+I try to read [52 books per year](/52books). This year's list can be found [here](/52books/2021).
+
+## 52 Films
+
+I *also* try to read [52 films per year](/52films). This year's list can be found [here](/52films/2021).
 
 ## Technical Resources
 

@@ -11,6 +11,7 @@ struct RWBlickhanOrg: Website {
         case stories
         case technicalwriting
         case booksoftheyear = "52books"
+        case filmsoftheyear = "52films"
     }
 
     struct ItemMetadata: WebsiteItemMetadata {
