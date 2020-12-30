@@ -17,7 +17,7 @@ I try to read [52 books per year](/52books). This year's list can be found [here
 
 ## 52 Films
 
-I *also* try to read [52 films per year](/52films). This year's list can be found [here](/52films/2021).
+I *also* try to watch [52 films per year](/52films). This year's list can be found [here](/52films/2021).
 
 ## Technical Resources
 
