@@ -17,3 +17,7 @@ You can contact me on Twitter [@rwblickhan](https://mobile.twitter.com/rwblickha
 ## Colophon
 
 This site is generated with the [Publish](https://github.com/JohnSundell/Publish) static site generator, using a theme handwritten by me 🙂 It uses [Vollkorn](http://vollkorn-typeface.com) as the main font.
+
+## Copyright
+
+Unless otherwise specified, all content on this site is licensed under a [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
