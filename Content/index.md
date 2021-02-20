@@ -6,9 +6,10 @@ I write a newsletter called [Applied Dilettantery](https://buttondown.email/rwbl
 
 I sometimes write [fiction](/stories).
 
-* [The House](/stories/thehouse)
-* [The Factory](/stories/thefactory)
 * [The Bridge](/stories/thebridge)
+* [The Structure](/stories/thestructure)
+* [The Factory](/stories/thefactory)
+* [The House](/stories/thehouse)
 * [Two Ships There Were](/stories/twoshipstherewere)
 
 ## 52 Books
