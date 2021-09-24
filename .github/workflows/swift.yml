@@ -1,0 +1,29 @@
+name: Swift
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+    - name: Checkout rwblickhan.org
+      uses: actions/checkout@v2
+      with:
+        path: rwblickhan.org
+    - name: Checkout Publish
+      uses: actions/checkout@v2
+      with:
+        repository: rwblickhan/Publish
+        path: Publish
+    - name: Cache Publish
+      uses: actions/cache@v2
+      with:
+        path: $GITHUB_WORKSPACE/Publish/.build
+        key: publish-1
+    - name: Install Publish
+      run: cd $GITHUB_WORKSPACE/Publish && make install
+    - name: Run Publish
+      run: publish generate && publish deploy
