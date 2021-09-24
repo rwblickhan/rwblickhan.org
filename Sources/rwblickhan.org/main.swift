@@ -33,7 +33,7 @@ extension DeploymentMethod {
         Self(name: "S3 \(bucket) with CloudFront cache") { context in
             try s3(bucket, pathToAWSBinary: awsBinary, sync: sync).body(context)
             try shellOut(
-                to: "aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISRIBUTION_ID --paths \"/*\"")
+                to: "aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths \"/*\"")
         }
     }
 }
