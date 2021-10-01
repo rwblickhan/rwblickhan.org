@@ -23,3 +23,8 @@ I *also* try to watch [52 films per year](/52films). This year's list can be fou
 ## Technical Resources
 
 I keep a [list of technical resources](/technicalresources) in programming and mathematics that I like.
+
+## Quotes
+
+And here's a [list of quotes](/quotes) I like.
+
