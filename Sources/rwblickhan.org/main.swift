@@ -25,20 +25,7 @@ struct RWBlickhanOrg: Website {
     var imagePath: Path? { nil }
 }
 
-extension DeploymentMethod {
-    static func s3Cached(
-        _ bucket: String,
-        pathToAWSBinary awsBinary: String = "/usr/local/bin/aws",
-        sync: Bool = true) -> Self {
-        Self(name: "S3 \(bucket) with CloudFront cache") { context in
-            try s3(bucket, pathToAWSBinary: awsBinary, sync: sync).body(context)
-            try shellOut(
-                to: "aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths \"/*\"")
-        }
-    }
-}
-
 try RWBlickhanOrg().publish(
     withTheme: .rwblickhan,
-    deployedUsing: .s3Cached("rwblickhan.org"),
+    deployedUsing: .s3("rwblickhan.org"),
     plugins: [.pygments()])
