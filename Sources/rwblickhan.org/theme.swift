@@ -86,20 +86,7 @@ private extension Node where Context == HTML.BodyContext {
                     .class("title"),
                     .id("header-title"),
                     .text("rwblickhan.org"),
-                    .href("/index.html")),
-                .div(
-                    .id("header-links"),
-                    .a(
-                        .class("subtitle"),
-                        .id("header-newsletter"),
-                        .text("Newsletter"),
-                        .href("https://buttondown.email/rwblickhan")),
-                    .div(.id("header-spacer")),
-                    .a(
-                        .class("subtitle"),
-                        .id("header-about"),
-                        .text("About"),
-                        .href("/about")))))
+                    .href("/index.html"))))
     }
 
     static func content(_ body: Content.Body) -> Node {

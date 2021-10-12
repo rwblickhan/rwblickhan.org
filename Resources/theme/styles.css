@@ -112,16 +112,6 @@ header {
     justify-content: space-between;
 }
 
-#header-links {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-#header-spacer {
-    width: 3rem;
-}
-
 #main-content {
     margin-top: 8rem;
     margin-bottom: 2rem;
