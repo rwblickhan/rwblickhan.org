@@ -15,16 +15,16 @@
         "repositoryURL": "https://github.com/johnsundell/files.git",
         "state": {
           "branch": null,
-          "revision": "22fe84797d499ffca911ccd896b34efaf06a50b9",
-          "version": "4.1.1"
+          "revision": "d273b5b7025d386feef79ef6bad7de762e106eaf",
+          "version": "4.2.0"
         }
       },
       {
         "package": "Ink",
-        "repositoryURL": "https://github.com/rustle/ink.git",
+        "repositoryURL": "https://github.com/rwblickhan/ink.git",
         "state": {
           "branch": "master",
-          "revision": "fd5747236991818da11160e772292bb92913ced5",
+          "revision": "a5854aa931853c8f2ee0abbdd1f235ec525cd742",
           "version": null
         }
       },
@@ -33,8 +33,8 @@
         "repositoryURL": "https://github.com/johnsundell/plot.git",
         "state": {
           "branch": null,
-          "revision": "61e828949ca6f84071bde65c8fc046cf74b7d1a2",
-          "version": "0.8.0"
+          "revision": "c27f6857deeb4c4623db294172a8ec572790a9be",
+          "version": "0.10.0"
         }
       },
       {
@@ -42,7 +42,7 @@
         "repositoryURL": "https://github.com/rwblickhan/publish.git",
         "state": {
           "branch": "master",
-          "revision": "9cc50285acbf1c9297ba2c1e11fd96b19d30efa7",
+          "revision": "5c378012972fc1161dc4c96aaa91ad3118a4009b",
           "version": null
         }
       },
@@ -51,7 +51,7 @@
         "repositoryURL": "https://github.com/pvieito/PythonKit.git",
         "state": {
           "branch": "master",
-          "revision": "a0817e0d68f0a50a631fc5fab0b8d219fd010241",
+          "revision": "86ce684b005aee7cea847568c6ab82079794f29b",
           "version": null
         }
       },
