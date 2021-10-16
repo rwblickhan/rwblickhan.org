@@ -1,6 +1,6 @@
 # Super-Deluxe Bagel Sandwich
 
-## Recipes[^1]
+## Ingredients[^1]
 
 * One bagel[^2]
 * One egg
