@@ -18,6 +18,7 @@ I live in San Francisco with [my girlfriend Sherry](http://sherryyuan.me) and ou
 
 * I sometimes put [unpolished short fiction](/stories) up here. Two of my favorites are ["The Bridge"](/stories/thebridge) and ["The Factory"](/stories/thefactory).
 * I try to read [52 books](/52books) and watch [52 films](/52films) per year. I collect some of my [favorite quotes](quotes) from them.
+* I'm attempting to write up my [favorite recipes](/recipes), mostly for my own use.
 
 ## Newsletter
 
