@@ -23,7 +23,7 @@ struct RWBlickhanOrg: Website {
     var name = "rwblickhan.org"
     var description = "A description of rwblickhan.org"
     var language: Language { .english }
-    var imagePath: Path? { nil }
+    var imagePath: Path? { "/images/coverimage.png" }
 }
 
 try RWBlickhanOrg().publish(
