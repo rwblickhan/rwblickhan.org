@@ -55,6 +55,55 @@ header a:hover {
     font-weight: normal;
 }
 
+/* `code` uses monospace which shows up a bit larger */
+.body code {
+    font-size: 14px;
+}
+
+/* Styling for email box on index page */
+.popout {
+    background: #ebedef;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding: 10px 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+input[type="email"] {
+    background-color: white;
+    border: 1px solid #ced3d9;
+    border-radius: 4px;
+    display: block;
+    padding: 0.75em 1em;
+    width: 100%;
+    margin-bottom: 1em;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.4em;
+    font-family: Vollkorn
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    background: #2f68b3;
+    border: 0;
+    border-radius: 0.25em;
+    color: #fff;
+    outline: 0;
+    padding: 0.75em 1em;
+    width: 100%;
+    font-size: 16px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-bottom: 0.5em;
+    font-family: Vollkorn;
+}
+
 /* Fix stretched line height for subscripts and superscripts */
 sub, sup {
   line-height: 0;
@@ -114,6 +163,10 @@ hr.solid {
         font-size: 18px;
         line-height: 22px;
         font-weight: normal;
+    }
+
+    .body code {
+        font-size: 12px;
     }
 }
 
