@@ -49,6 +49,7 @@ Historical note: I used to call my newsletter [Applied Dilettantery](https://but
 
 This site is generated with the [Publish](https://github.com/JohnSundell/Publish) static site generator, using a theme handwritten by me 🙂 It uses [Vollkorn](http://vollkorn-typeface.com) as the main font.
 It's served out of an S3 bucket behind Cloudflare's CDN, with the infrastructure managed by Terraform.
+You can see the full source on [Github](https://github.com/rwblickhan/rwblickhan.org).
 
 ## Copyright
 
