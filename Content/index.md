@@ -12,7 +12,7 @@ I live in San Francisco with [my girlfriend Sherry](http://sherryyuan.me) and ou
 * *A Prince of Foxes*
     - After noodling around with various [NaNoWriMo](https://nanowrimo.org) projects during the pandemic, I'm finally tackling a "real" novel that I hope to publish one day, which I'm tentatively calling *A Prince of Foxes*.
     - It's intended to be [sociological epic fantasy](https://blogs.scientificamerican.com/observations/the-real-reason-fans-hate-the-last-season-of-game-of-thrones/) in the vein of *Game of Thrones* or *Dune*.
-    - The rough draft is currently **24,133 words** out of an estimated ???.
+    - The rough draft is currently **25,507 words** out of an estimated ???.
 
 ## Newsletter
 
