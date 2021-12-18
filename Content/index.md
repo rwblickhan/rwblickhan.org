@@ -1,18 +1,17 @@
-## About
+# rwblickhan
 
 Hello there! I'm a programmer and writer.
 
-I currently work as an iOS developer at [Asana](https://asana.com/) and have a degree in computer science & mathematics from the [University of British Columbia](https://www.ubc.ca/).
-I live in San Francisco with [my girlfriend Sherry](http://sherryyuan.me) and our small canine companion Rooibos.
-
 ## Current Projects
 
-* [Spreppy](https://github.com/rwblickhan/Spreppy)
-    - I'm in the (very) early stages of trying to build an [iOS-assed iOS app](https://daringfireball.net/linked/2020/03/20/mac-assed-mac-apps) for spaced repetition.
 * *A Prince of Foxes*
     - After noodling around with various [NaNoWriMo](https://nanowrimo.org) projects during the pandemic, I'm finally tackling a "real" novel that I hope to publish one day, which I'm tentatively calling *A Prince of Foxes*.
     - It's intended to be [sociological epic fantasy](https://blogs.scientificamerican.com/observations/the-real-reason-fans-hate-the-last-season-of-game-of-thrones/) in the vein of *Game of Thrones* or *Dune*.
-    - The rough draft is currently **27,516 words** out of an estimated 40,000.
+    - The exploratory rough draft of 29,017 words is **completed**.
+    - The initial outline of 2,637 words is **completed**.
+    - The first draft is currently **1,477 words** out of an estimated 75,000.
+* [Spreppy](https://github.com/rwblickhan/Spreppy)
+    - I'm in the (very) early stages of trying to build an [iOS-assed iOS app](https://daringfireball.net/linked/2020/03/20/mac-assed-mac-apps) for spaced repetition.
 
 ## Newsletter
 
@@ -44,6 +43,13 @@ Historical note: I used to call my newsletter [Applied Dilettantery](https://but
 * I sometimes put [unpolished short fiction](/stories) up here. Two of my favorites are ["The Bridge"](/stories/thebridge) and ["The Factory"](/stories/thefactory).
 * I try to read [52 books](/52books) and watch [52 films](/52films) per year. I collect some of my [favorite quotes](quotes) from them.
 * I'm attempting to write up my [favorite recipes](/recipes), mostly for my own use.
+
+## About
+
+Professionally, I am an iOS developer at [Asana](https://asana.com/).
+I have a bachelor's degree in computer science & mathematics from the [University of British Columbia](https://www.ubc.ca/).
+
+I live in San Francisco with [my girlfriend Sherry](http://sherryyuan.me) and our small canine companion Rooibos.
 
 ## Colophon
 
