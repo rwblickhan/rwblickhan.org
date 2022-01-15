@@ -9,7 +9,7 @@ Hello there! I'm a programmer and writer.
     - It's intended to be [sociological epic fantasy](https://blogs.scientificamerican.com/observations/the-real-reason-fans-hate-the-last-season-of-game-of-thrones/) in the vein of *Game of Thrones* or *Dune*.
     - The exploratory rough draft of 29,017 words is **completed**.
     - The initial outline of 2,637 words is **completed**.
-    - The first draft is currently **8,336 words** out of an estimated 75,000.
+    - The first draft is currently **9,528 words** out of an estimated 75,000.
 * [Spreppy](https://github.com/rwblickhan/Spreppy)
     - I'm in the (very) early stages of trying to build an [iOS-assed iOS app](https://daringfireball.net/linked/2020/03/20/mac-assed-mac-apps) for spaced repetition.
 
