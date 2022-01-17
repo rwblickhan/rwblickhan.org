@@ -13,6 +13,7 @@ struct RWBlickhanOrg: Website {
         case recipes
         case stories
         case technicalwriting
+        case tools
     }
 
     struct ItemMetadata: WebsiteItemMetadata {
