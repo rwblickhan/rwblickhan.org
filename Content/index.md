@@ -9,9 +9,10 @@ Hello there! I'm a programmer and writer.
     - It's intended to be [sociological epic fantasy](https://blogs.scientificamerican.com/observations/the-real-reason-fans-hate-the-last-season-of-game-of-thrones/) in the vein of *Game of Thrones* or *Dune*.
     - The exploratory rough draft of 29,017 words is **completed**.
     - The initial outline of 2,637 words is **completed**.
-    - The first draft is currently **37,202 words** out of an estimated 90,000.
-* [Spreppy](https://github.com/rwblickhan/Spreppy)
-    - I'm in the (very) early stages of trying to build an [iOS-assed iOS app](https://daringfireball.net/linked/2020/03/20/mac-assed-mac-apps) for spaced repetition.
+    - The first draft is currently **47,046 words** out of an estimated 90,000.
+* [Stampy](https://github.com/rwblickhan/Stampy)
+    - I’m experimenting with SwiftUI by building a simple iOS client for [Buttondown](https://buttondown.email/), my favorite email newsletter service.
+    - It’s currently available on TestFlight by invite.
 
 ## Newsletter
 
@@ -41,21 +42,25 @@ Historical note: I used to call my newsletter [Applied Dilettantery](https://but
 ## Other Stuff
 
 * I sometimes put [unpolished short fiction](/stories) up here. Two of my favorites are ["The Bridge"](/stories/thebridge) and ["The Factory"](/stories/thefactory).
-* I try to read [52 books](/52books) and watch [52 films](/52films) per year. I collect some of my [favorite quotes](quotes) from them.
-* I'm attempting to write up my [favorite recipes](/recipes), mostly for my own use.
-* I wrote up the [tools I'm using in 2022](/tools/2022).
+* I try to read [52 books](/52books) and watch [52 films](/52films) per year.
+* I collect some of my [favorite quotes](/quotes).
+* I'm write up some of my [favorite recipes](/recipes), mostly for my own use.
+* I wrote about the [tools I'm using in 2022](/tools/2022).
 
 ## About
 
 Professionally, I am an iOS developer at [Asana](https://asana.com/).
-I have a bachelor's degree in computer science & mathematics from the [University of British Columbia](https://www.ubc.ca/).
 
-I live in San Francisco with [my girlfriend Sherry](http://sherryyuan.me) and our small canine companion Rooibos.
+I have a bachelor's degree in computer science & mathematics from the [University of British Columbia](https://www.ubc.ca/), though generally speaking my interests lean towards the humanities (particularly history, cultural anthropology, political science, and economics).
+
+I live in San Francisco with [my fiancée Sherry](http://sherryyuan.me) and our small canine companion Rooibos.
 
 ## Colophon
 
 This site is generated with the [Publish](https://github.com/JohnSundell/Publish) static site generator, using a theme handwritten by me 🙂 It uses [Vollkorn](http://vollkorn-typeface.com) as the main font.
-It's served out of an S3 bucket behind Cloudflare's CDN, with the infrastructure managed by Terraform.
+
+It's served out of an [S3 bucket](https://aws.amazon.com/s3/) behind [Cloudflare's CDN](https://www.cloudflare.com/), with the infrastructure managed by [Terraform](https://www.terraform.io/).
+
 You can see the full source on [Github](https://github.com/rwblickhan/rwblickhan.org).
 
 ## Copyright
