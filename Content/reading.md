@@ -1,3 +1,0 @@
-# Reading
-
-Books I like.
