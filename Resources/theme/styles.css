@@ -13,13 +13,23 @@ header a:hover {
 }
 
 .title {
-    font-size: 36px;
-    line-height: 43px;
+    font-size: 24px;
+    line-height: 29px;
+
+    @media only screen and (min-width: 768px) {
+        font-size: 36px;
+        line-height: 43px;
+    }
 }
 
 .subtitle {
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 18px;
+    line-height: 22px;
+
+    @media only screen and (min-width: 768px) {
+        font-size: 24px;
+        line-height: 29px;
+    }
 }
 
 .body {
@@ -30,8 +40,13 @@ header a:hover {
 }
 
 .body p, ul, ol, a {
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 17px;
+
+    @media only screen and (min-width: 768px) {
+        font-size: 16px;
+        line-height: 22px;
+    }
 }
 
 .body a {
@@ -44,20 +59,35 @@ header a:hover {
 }
 
 .body h1 {
-    font-size: 36px;
-    line-height: 43px;
+    font-size: 24px;
+    line-height: 28px;
     font-weight: normal;
+
+    @media only screen and (min-width: 768px) {
+        font-size: 36px;
+        line-height: 43px;
+        font-weight: normal;
+    }
 }
 
 .body h2 {
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 18px;
+    line-height: 22px;
     font-weight: normal;
+
+    @media only screen and (min-width: 768px) {
+        font-size: 24px;
+        line-height: 29px;
+        font-weight: normal;
+    }
 }
 
 /* `code` uses monospace which shows up a bit larger */
 .body code {
-    font-size: 14px;
+    font-size: 12px;
+    @media only screen and (min-width: 768px) {
+        font-size: 14px;
+    }
 }
 
 /* Styling for email box on index page */
@@ -135,41 +165,6 @@ hr.solid {
   border-top: 0.1rem solid #fff;
 }
 
-/* Mobile Typography */
-
-@media only screen and (max-width: 767px) {
-    .title {
-        font-size: 24px;
-        line-height: 29px;
-    }
-    
-    .subtitle {
-        font-size: 18px;
-        line-height: 22px;
-    }
-    
-    .body p, ul, ol, a {
-        font-size: 14px;
-        line-height: 17px;
-    }
-    
-    .body h1 {
-        font-size: 24px;
-        line-height: 28px;
-        font-weight: normal;
-    }
-
-    .body h2 {
-        font-size: 18px;
-        line-height: 22px;
-        font-weight: normal;
-    }
-
-    .body code {
-        font-size: 12px;
-    }
-}
-
 /* Layout */
 
 header {
@@ -178,48 +173,43 @@ header {
     left: 0;
     right: 0;
     height: 6rem;
-    position: fixed;
+    position: absolute;
+
+    @media only screen and (min-width: 1024px) {
+       position: fixed; 
+    }
 }
 
 #header-content {
     position: absolute;
     height: 100%;
-    left: 3rem;
-    right: 3rem;
+    left: 1rem;
+    right: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @media only screen and (min-width: 1024px) {
+        left: 3rem;
+        right: 3rem;
+    }
 }
 
 #main-content {
     margin-top: 8rem;
     margin-bottom: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: auto;
+
+    @media only screen and (min-width: 1024px) {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
 }
 
 img {
     max-width: 100%;
     height: auto;
-}
-
-/* Mobile Layout */
-
-@media only screen and (max-width: 1023px) {
-    header {
-        position: absolute
-    }
-    
-    #header-content {
-        position: absolute;
-        left: 1rem;
-        right: 1rem;
-    }
-    
-    #main-content {
-        margin-left: 1em;
-        margin-right: 1em;
-        width: auto;
-    }
 }
