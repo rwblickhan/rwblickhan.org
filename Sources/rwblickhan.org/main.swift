@@ -28,6 +28,17 @@ struct RWBlickhanOrg: Website {
 }
 
 try RWBlickhanOrg().publish(
-    withTheme: .rwblickhan,
-    deployedUsing: .s3("rwblickhan.org"),
-    plugins: [.pygments()])
+    at: nil,
+    using: [
+        .installPlugin(.pygments()),
+        .optional(.copyResources()),
+        .addMarkdownFiles(),
+        .sortItems(by: \.date, order: .descending),
+        .generateHTML(withTheme: .rwblickhan, indentation: nil),
+        .step(named: "Apply Tailwind") { context in
+            try shellOut(to: "npx tailwindcss -i ./Resources/theme/styles.css -o ./Output/theme/styles.css -c tailwind.config.js")
+        },
+        .generateSiteMap(indentedBy: nil),
+        .unwrap(.s3("rwblickhan.org"), PublishingStep.deploy)
+    ]
+)

@@ -8,3 +8,4 @@ Output/
 terraform.tfstate*
 Terraform/.terraform/providers
 Content/.Ulysses-Group.plist
+node_modules/

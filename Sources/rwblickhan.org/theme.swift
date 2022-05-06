@@ -77,10 +77,9 @@ private extension Node where Context == HTML.BodyContext {
     static func header<T: Website>(for _: T) -> Node {
         .header(
             .div(
-                .id("header-content"),
+                .class("bg-black absolute lg:fixed h-24 top-0 inset-x-0 flex items-center justify-between"),
                 .a(
-                    .class("title"),
-                    .id("header-title"),
+                    .class("ml-4 lg:ml-12 text-white text-4xl no-underline hover:underline"),
                     .text("rwblickhan.org"),
                     .href("/index.html"))))
     }
@@ -88,8 +87,7 @@ private extension Node where Context == HTML.BodyContext {
     static func content(_ body: Content.Body) -> Node {
         .main(
             .div(
-                .class("body"),
-                .id("main-content"),
+                .class("mt-32 mb-8 max-w-2xl mx-auto prose dark:prose-invert prose-a:text-rwb-blue prose-a:no-underline hover:prose-a:underline"),
                 .contentBody(body)))
     }
 }
