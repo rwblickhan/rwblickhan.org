@@ -1,7 +1,5 @@
 # Quotes
 
-> A collection of quotes I like
-
 * "Butler’s novel [*Parable of the Sower*] is brutal and soaring. I guess there’s a word people sometimes use for that combination: biblical." - Robin Sloan, "The plot against", *Society of the Double Dagger* Jun 10, 2020
 * “Humility is not the opposite of confidence. They are duals. Confidence is knowing your abilities. Humility is knowing your limits.” - Hillel Wayne, *Computer Things* \#64
 * “From Louisiana, he followed the hyphens in the road that blurred together toward a faraway place, bridging unrelated things as hyphens do.” - Isabel Wilkerson, *The Warmth of Other Suns* pg. 7

@@ -1,7 +1,5 @@
 # Stories
 
-> Various fiction.
-
 * [The Bridge](/stories/thebridge)
 * [The Structure](/stories/thestructure)
 * [The Factory](/stories/thefactory)

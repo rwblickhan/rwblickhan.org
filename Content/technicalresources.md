@@ -1,7 +1,5 @@
 # Technical Resources
 
-> Books and other resources in programming and mathematics.
-
 This is a list of various sites, textbooks, and tools that I've personally found useful. At some point I plan to organize these into a starting-from-scratch syllabus for all of computer science, like Gerard 't Hooft's ["How to Become a GOOD Theoretical Physicist"](http://www.staff.science.uu.nl/~gadda001/goodtheorist/) or the anonymous ["How to Become a Pure Mathematician (or Statistician)"](https://hbpms.blogspot.ca), both of which I highly recommend.
 
 ## General
@@ -31,10 +29,5 @@ This is a list of various sites, textbooks, and tools that I've personally found
 ## iOS/Swift
 
 * [*Hacking with Swift*](https://www.hackingwithswift.com): Paul Hudson's site is the "user manual you didn't know you needed" for iOS programming. His ["100 Days of Swift"](https://www.hackingwithswift.com/100) and ["100 Days of SwiftUI"](https://www.hackingwithswift.com/100/swiftui) are both highly recommended for beginners.
-
-## Tools
-
-* [Zettlr](https://www.zettlr.com): I use the free-and-open-source Zettlr for my note-taking, using a [zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten)-esque system.
-* ["Beautiful math on Quora: LaTeX in less than 10 minutes"](http://math-on-quora.surge.sh): Despite the name, this quick-and-dirty guide to mathematical notation in LaTeX is not exclusive to Quora.
 
 [^1]: Important: the "download" button on the main page lets you download and run the Coq source, which is the best way to follow along with the book.

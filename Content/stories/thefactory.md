@@ -1,7 +1,5 @@
 # The Factory
 
-> A short cosmic horror story.
-
 They had found the Factory in the darkened valley of an airless moon.
 
 It was artificial, that much was certain, unless some unknown natural phenomenon could shape geometrically perfect tunnels and fashion metallic instruments with apparent clarity of purpose. Yet there was nary a mark of the makers, save one wall, containing a bizarre mural, or perhaps it was a message, written in alien characters presumed to have no human meaning—the Diagram.

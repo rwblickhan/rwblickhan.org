@@ -38,24 +38,20 @@ Historical note: I used to call my newsletter [Applied Dilettantery](https://but
 ## Other Stuff
 
 * I sometimes put [unpolished short fiction](/stories) up here. Two of my favorites are ["The Bridge"](/stories/thebridge) and ["The Factory"](/stories/thefactory).
-* I try to read [52 books](/52books) and watch [52 films](/52films) per year.
+* I log the [books](/books) and [films](/films) I read and watch. I try to do 52 of each per year.
 * I collect some of my [favorite quotes](/quotes).
-* I'm write up some of my [favorite recipes](/recipes), mostly for my own use.
+* I write up some of my [favorite recipes](/recipes), mostly for my own use.
 * I wrote about the [tools I'm using in 2022](/tools/2022).
 
 ## About
 
-Professionally, I am an iOS developer at [Asana](https://asana.com/).
-
-I have a bachelor's degree in computer science & mathematics from the [University of British Columbia](https://www.ubc.ca/), though generally speaking my interests lean towards the humanities (particularly history, cultural anthropology, political science, and economics).
+Professionally, I am an iOS developer at [Asana](https://asana.com/). I have a bachelor's degree in computer science & mathematics from the [University of British Columbia](https://www.ubc.ca/), though generally speaking my interests lean towards the humanities (particularly history, cultural anthropology, political science, and economics).
 
 I live in San Francisco with [my fiancée Sherry](http://sherryyuan.me) and our small canine companion Rooibos.
 
 ## Colophon
 
-This site is generated with the [Publish](https://github.com/JohnSundell/Publish) static site generator, using a theme handwritten by me 🙂 It uses [Vollkorn](http://vollkorn-typeface.com) as the main font.
-
-It's served out of an [S3 bucket](https://aws.amazon.com/s3/) behind [Cloudflare's CDN](https://www.cloudflare.com/), with the infrastructure managed by [Terraform](https://www.terraform.io/).
+This site is generated with the [Publish](https://github.com/JohnSundell/Publish) static site generator, using a theme handwritten by me 🙂 It uses [Tailwind CSS](https://tailwindcss.com) for styling and [Vollkorn](http://vollkorn-typeface.com) as the main font. It's served out of an [AWS S3 bucket](https://aws.amazon.com/s3/) behind [Cloudflare's CDN](https://www.cloudflare.com/), with the infrastructure managed by [Terraform](https://www.terraform.io/).
 
 You can see the full source on [Github](https://github.com/rwblickhan/rwblickhan.org).
 

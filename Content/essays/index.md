@@ -1,3 +1,0 @@
-# Essays
-
-Essays, hooray!

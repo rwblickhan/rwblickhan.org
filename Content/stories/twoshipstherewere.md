@@ -1,7 +1,5 @@
 # Two Ships There Were
 
-> A nonsense poem.
-
 Two ships there were  
 Atwixt the seas  
 Afull of fur  

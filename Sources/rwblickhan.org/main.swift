@@ -7,12 +7,10 @@ import SwiftPygmentsPublishPlugin
 
 struct RWBlickhanOrg: Website {
     enum SectionID: String, WebsiteSectionID {
-        case booksoftheyear = "52books"
-        case filmsoftheyear = "52films"
-        case essays
+        case books
+        case films
         case recipes
         case stories
-        case technicalwriting
         case tools
     }
 

@@ -1,7 +1,5 @@
 # The Structure
 
-> A long space horror short story
-
 The generation ship floated, gently, upon the solar winds of a distant star.
 
 “Andromeda?” said Lieutenant Captain, First Rank, Tamblyn Sazor.

@@ -1,7 +1,5 @@
 # The Bridge
 
-> Surreal flash fiction.
-
 There is a bridge with no end.
 
 One end of this bridge is contained in a city, built up over the millennia from a small hamlet into a great metropolis, but the other end, if indeed there is one, cannot be glimpsed in the thick fog that rolls in from the ocean.
