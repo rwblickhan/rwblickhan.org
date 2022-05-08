@@ -16,8 +16,10 @@ extension Theme where Site == RWBlickhanOrg {
 }
 
 private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
-    private let standardBodyClass = Node<HTML.BodyContext>.class("pt-32 mb-8 mx-4 md:max-w-3xl md:mx-auto prose dark:prose-invert prose-a:text-rwb-blue-light dark:prose-a:text-rwb-blue-dark prose-a:no-underline hover:prose-a:underline")
-    
+    private let standardBodyClass = Node<HTML.BodyContext>
+        .class(
+            "pt-32 mb-8 mx-4 md:max-w-3xl md:mx-auto prose dark:prose-invert prose-a:text-rwb-blue-light dark:prose-a:text-rwb-blue-dark prose-a:no-underline hover:prose-a:underline")
+
     func makeIndexHTML(for index: Index, context: PublishingContext<Site>) throws -> HTML {
         HTML(
             .lang(context.site.language),
@@ -27,11 +29,11 @@ private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
                 "/theme/Vollkorn/vollkorn.css",
             ]),
             .body(
-                    .header(for: context.site),
-                    .main(
-                        .div(
-                            standardBodyClass,
-                            .contentBody(index.body)))))
+                .header(for: context.site),
+                .main(
+                    .div(
+                        standardBodyClass,
+                        .contentBody(index.body)))))
     }
 
     func makeSectionHTML(for section: Section<Site>, context: PublishingContext<Site>) throws -> HTML {
@@ -45,12 +47,12 @@ private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
             .body(
                 .header(for: context.site),
                 .main(
-                            .contentBody(section.body),
-                            .ul(
-                                .forEach(section.items) { item in
-                                        .li(.a(.text(item.title), .href(item.path)))
-                                }
-                            ))))
+                    standardBodyClass,
+                    .contentBody(section.body),
+                    .ul(
+                        .forEach(section.items) { item in
+                            .li(.a(.text(item.title), .href(item.path)))
+                        }))))
     }
 
     func makeItemHTML(for item: Item<Site>, context: PublishingContext<Site>) throws -> HTML {
@@ -64,7 +66,7 @@ private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
             .body(
                 .header(for: context.site),
                 .main(
-                        .div(
+                    .div(
                         standardBodyClass,
                         .contentBody(item.body)))))
     }
@@ -80,9 +82,9 @@ private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
             .body(
                 .header(for: context.site),
                 .main(
-                        .div(
-                            standardBodyClass,
-                            .contentBody(page.body)))))
+                    .div(
+                        standardBodyClass,
+                        .contentBody(page.body)))))
     }
 
     func makeTagListHTML(for _: TagListPage, context _: PublishingContext<Site>) throws -> HTML? { nil }
