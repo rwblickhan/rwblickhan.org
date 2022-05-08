@@ -11,6 +11,7 @@ struct RWBlickhanOrg: Website {
         case films
         case recipes
         case stories
+        case technical
         case tools
     }
 

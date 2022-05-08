@@ -16,9 +16,12 @@ extension Theme where Site == RWBlickhanOrg {
 }
 
 private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
-    private let standardBodyClass = Node<HTML.BodyContext>
-        .class(
-            "pt-32 mb-8 mx-4 md:max-w-3xl md:mx-auto prose dark:prose-invert prose-a:text-rwb-blue-light dark:prose-a:text-rwb-blue-dark prose-a:no-underline hover:prose-a:underline")
+    private func makeStandardBodyClass() -> Node<HTML.BodyContext> {
+        let layoutProps = "pt-32 mb-8 mx-4 md:max-w-3xl md:mx-auto"
+        let typographyProps = "prose dark:prose-invert"
+        let linkTypographyProps = "prose-a:text-rwb-blue-light dark:prose-a:text-rwb-blue-dark prose-a:no-underline hover:prose-a:underline"
+        return .class("\(layoutProps) \(typographyProps) \(linkTypographyProps)")
+    }
 
     func makeIndexHTML(for index: Index, context: PublishingContext<Site>) throws -> HTML {
         HTML(
@@ -32,7 +35,7 @@ private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
                 .header(for: context.site),
                 .main(
                     .div(
-                        standardBodyClass,
+                        makeStandardBodyClass(),
                         .contentBody(index.body)))))
     }
 
@@ -47,7 +50,7 @@ private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
             .body(
                 .header(for: context.site),
                 .main(
-                    standardBodyClass,
+                    makeStandardBodyClass(),
                     .contentBody(section.body),
                     .ul(
                         .forEach(section.items) { item in
@@ -67,7 +70,7 @@ private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
                 .header(for: context.site),
                 .main(
                     .div(
-                        standardBodyClass,
+                        makeStandardBodyClass(),
                         .contentBody(item.body)))))
     }
 
@@ -83,7 +86,7 @@ private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
                 .header(for: context.site),
                 .main(
                     .div(
-                        standardBodyClass,
+                        makeStandardBodyClass(),
                         .contentBody(page.body)))))
     }
 
