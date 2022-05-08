@@ -5,6 +5,7 @@
 @layer base {
     html {
         font-family: Vollkorn;
+        @apply bg-white dark:bg-neutral-900
     }
     
     hr.solid {

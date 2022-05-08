@@ -9,10 +9,9 @@ module.exports = {
       },
       extend: {
         colors: {
-          'rwb-blue': '#2f68b3',
-          'rwb-slate-med': '#ebedef',
-          'rwb-slate-light': '#f9f9f9',
-          'rwb-slate-dark': '#ccc'
+          'rwb-blue-light': '#3366cc',
+          'rwb-blue-dark': '#2e5cb8',
+          'rwb-slate-light': '#ebedef',
         },
       }
   },

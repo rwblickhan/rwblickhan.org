@@ -14,7 +14,7 @@
 
 The best way to keep up with me is to punch in your email below to subscribe to `rwblog`, my (very) erratically released newsletter.
 
-<div class="bg-rwb-slate-med my-4 px-5 pt-4 pb-1.5 max-w-2xl mx-auto rounded">
+<div class="bg-rwb-slate-light dark:bg-neutral-800 my-4 px-5 pt-4 pb-1.5 max-w-2xl mx-auto rounded">
     <form
       action="https://buttondown.email/api/emails/embed-subscribe/rwblickhan"
       method="post"
@@ -23,8 +23,8 @@ The best way to keep up with me is to punch in your email below to subscribe to 
       class="embeddable-buttondown-form"
     >
       <label for="bd-email">Enter your email:</label>
-      <input type="email" name="email" class="block mb-4 px-4 py-3 w-full bg-white border border-slate-400 rounded" />
-      <input type="submit" value="Subscribe" class="block mb-2 px-4 py-3 w-full text-white bg-rwb-blue border-0 rounded cursor-pointer" />
+      <input type="email" name="email" class="block mb-4 px-4 py-3 w-full bg-white dark:bg-neutral-900 border border-slate-400 rounded" />
+      <input type="submit" value="Subscribe" class="block mb-2 px-4 py-3 w-full text-white bg-rwb-blue-light dark:bg-rwb-blue-dark border-0 rounded cursor-pointer" />
     </form>
 </div>
 
