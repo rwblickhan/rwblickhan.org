@@ -16,7 +16,7 @@ extension Theme where Site == RWBlickhanOrg {
 }
 
 private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
-    private let standardBodyClass = Node<HTML.BodyContext>.class("mt-32 mb-8 max-w-2xl mx-auto prose dark:prose-invert prose-a:text-rwb-blue prose-a:no-underline hover:prose-a:underline")
+    private let standardBodyClass = Node<HTML.BodyContext>.class("mt-32 mb-8 mx-4 lg:max-w-3xl lg:mx-auto prose dark:prose-invert prose-a:text-rwb-blue prose-a:no-underline hover:prose-a:underline")
     
     func makeIndexHTML(for index: Index, context: PublishingContext<Site>) throws -> HTML {
         HTML(
