@@ -11,6 +11,8 @@ jobs:
     steps:
     - name: Install AWS CLI
       run: curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg" && sudo installer -pkg AWSCLIV2.pkg -target /
+    - name: Install Pygments
+      run: pip3 install Pygments
     - name: Checkout rwblickhan.org
       uses: actions/checkout@v2
       with:
