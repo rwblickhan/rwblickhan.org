@@ -19,7 +19,8 @@ private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
     private func makeStandardBodyClass() -> Node<HTML.BodyContext> {
         let layoutProps = "pt-32 mb-8 mx-4 md:max-w-3xl md:mx-auto"
         let typographyProps = "prose dark:prose-invert"
-        let linkTypographyProps = "prose-a:text-rwb-blue-light dark:prose-a:text-rwb-blue-dark prose-a:no-underline hover:prose-a:underline"
+        let linkTypographyProps =
+            "prose-a:text-rwb-blue-light dark:prose-a:text-rwb-blue-dark prose-a:no-underline hover:prose-a:underline"
         return .class("\(layoutProps) \(typographyProps) \(linkTypographyProps)")
     }
 
@@ -32,7 +33,7 @@ private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
                 "/theme/Vollkorn/vollkorn.css",
             ]),
             .body(
-                .header(for: context.site),
+                .header(for: context),
                 .main(
                     .div(
                         makeStandardBodyClass(),
@@ -48,7 +49,7 @@ private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
                 "/theme/Vollkorn/vollkorn.css",
             ]),
             .body(
-                .header(for: context.site),
+                .header(for: context),
                 .main(
                     makeStandardBodyClass(),
                     .contentBody(section.body),
@@ -67,7 +68,7 @@ private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
                 "/theme/Vollkorn/vollkorn.css",
             ]),
             .body(
-                .header(for: context.site),
+                .header(for: context),
                 .main(
                     .div(
                         makeStandardBodyClass(),
@@ -83,7 +84,7 @@ private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
                 "/theme/Vollkorn/vollkorn.css",
             ]),
             .body(
-                .header(for: context.site),
+                .header(for: context),
                 .main(
                     .div(
                         makeStandardBodyClass(),
@@ -96,13 +97,35 @@ private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
 }
 
 private extension Node where Context == HTML.BodyContext {
-    static func header<T: Website>(for _: T) -> Node {
+    static func header<T: Website>(for context: PublishingContext<T>) -> Node {
         .header(
             .div(
-                .class("bg-black absolute md:fixed h-24 top-0 inset-x-0 flex items-center justify-between"),
-                .a(
-                    .class("ml-4 md:ml-12 text-white text-4xl no-underline hover:underline"),
-                    .text("rwblickhan.org"),
-                    .href("/index.html"))))
+                .class("flex flex-col absolute md:fixed top-0 inset-x-0"),
+                .input(.id("menu-toggle"), .class("peer hidden"), .type(.checkbox)),
+                .div(
+                    .class("px-4 lg:px-12 bg-black h-24 w-full flex items-center justify-between"),
+                    .a(
+                        .class("text-white text-4xl no-underline hover:underline"),
+                        .text("rwblickhan.org"),
+                        .href("/index.html")),
+                    .label(
+                        .class("flex flex-col h-7 justify-between cursor-pointer"),
+                        .for("menu-toggle"),
+                        .forEach(0..<3, { _ in
+                                .div(.class("h-1 w-8 bg-white rounded"))
+                        })
+                    )),
+                .forEach(context.sections.makeIterator(), { section in
+                    sectionMenuItem(for: section)
+                })))
+    }
+    
+    static func sectionMenuItem<T: Website>(for section: Section<T>) -> Node {
+        .div(
+            .class("pl-4 lg:pl-12 pr-4 lg:pr-10 bg-black h-16 flex items-center justify-between hidden peer-checked:block"),
+            .a(
+                .class("text-white text-2xl no-underline hover:underline"),
+                .text(section.content.title),
+                .href(section.path)))
     }
 }
