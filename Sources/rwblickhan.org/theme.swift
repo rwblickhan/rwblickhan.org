@@ -31,6 +31,7 @@ private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
                 "/theme/styles.css",
                 "/theme/pygments.css",
                 "/theme/Vollkorn/vollkorn.css",
+                "/theme/stork.css"
             ]),
             .body(
                 .header(for: context),
@@ -47,6 +48,7 @@ private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
                 "/theme/styles.css",
                 "/theme/pygments.css",
                 "/theme/Vollkorn/vollkorn.css",
+                "/theme/stork.css"
             ]),
             .body(
                 .header(for: context),
@@ -66,6 +68,7 @@ private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
                 "/theme/styles.css",
                 "/theme/pygments.css",
                 "/theme/Vollkorn/vollkorn.css",
+                "/theme/stork.css"
             ]),
             .body(
                 .header(for: context),
@@ -82,6 +85,7 @@ private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
                 "/theme/styles.css",
                 "/theme/pygments.css",
                 "/theme/Vollkorn/vollkorn.css",
+                "/theme/stork.css"
             ]),
             .body(
                 .header(for: context),
@@ -115,6 +119,7 @@ private extension Node where Context == HTML.BodyContext {
                                 .div(.class("h-1 w-8 bg-white rounded"))
                         })
                     )),
+                .searchBar,
                 .forEach(context.sections.makeIterator(), { section in
                     sectionMenuItem(for: section)
                 })))
@@ -127,5 +132,16 @@ private extension Node where Context == HTML.BodyContext {
                 .class("text-white text-2xl no-underline hover:underline"),
                 .text(section.content.title),
                 .href(section.path)))
+    }
+    
+    static var searchBar: Node {
+        .div(
+            .class("pl-4 lg:pl-12 pr-4 lg:pr-10 bg-black h-16 flex items-center justify-between hidden peer-checked:block"),
+            .div(
+                .class("stork-wrapper"),
+                .input(.data(named: "stork", value: "federalist"), .class("stork-input")),
+                .div(.data(named: "stork", value: "federalist-output"), .class("stork-output"))),
+            .script(.src("/scripts/stork.js")),
+            .script(.src("/scripts/register.js")))
     }
 }
