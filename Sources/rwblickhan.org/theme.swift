@@ -99,6 +99,7 @@ private struct RWBlickhanOrgHTMLFactory<Site: Website>: HTMLFactory {
 private extension Node where Context == HTML.BodyContext {
     static func header<T: Website>(for context: PublishingContext<T>) -> Node {
         .header(
+            .script(.src("https://hypothes.is/embed.js"), .async()),
             .div(
                 .class("flex flex-col absolute md:fixed top-0 inset-x-0"),
                 .input(.id("menu-toggle"), .class("peer hidden"), .type(.checkbox)),
