@@ -6,7 +6,7 @@ After noodling around with various [NaNoWriMo](https://nanowrimo.org) projects d
 
 - The exploratory rough draft of 29,017 words is **completed**.
 - The initial outline of 2,637 words is **completed**.
-- The first draft is currently **61,035 words** out of an estimated 90,000.
+- The first draft is currently **62,143 words** out of an estimated 90,000.
 
 ###  [Stampy](https://github.com/rwblickhan/Stampy)
 
