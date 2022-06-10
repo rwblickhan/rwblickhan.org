@@ -68,7 +68,7 @@ My heart to home and trade and never live.
 
 > To his venerable master A., greeting. This is to inform you that I am studying at Oxford with great diligence, but the matter of money stands greatly in the way of my promotion, as it is now two months since I spent the last of what you sent me. The city is expensive and makes many demands. I have to rent lodgings, buy necessaries, and provide for many other things which I cannot now specify. Wherefore I respectfully beg your paternity that by the promptings of divine pity you may assist me, so that I may be able to complete what I have well begun.
 
-– From a circa 1220 form letter provided by Oxford University to students seeking money from patrons (h/t [*Futility Closet*]((https://www.futilitycloset.com/2021/01/15/student-debt/)))
+– From a circa 1220 form letter provided by Oxford University to students seeking money from patrons (via [*Futility Closet*]((https://www.futilitycloset.com/2021/01/15/student-debt/)))
 
 > He remembers those vanished years. As though looking through a dusty window pane, the past is something he could see, but not touch. And everything he sees is blurred and indistinct.
 
@@ -80,7 +80,7 @@ My heart to home and trade and never live.
 
 > Death is always on the way, but the fact that you don’t know when it will arrive seems to take away from the finiteness of life. It’s that terrible precision that we hate so much. But because we don’t know, we get to think of life as an inexhaustible well. Yet everything happens only a certain number of times, and a very small number, really. How many more times will you remember a certain afternoon of your childhood, some afternoon that’s so deeply a part of your being that you can’t even conceive of your life without it? Perhaps four or five times more. Perhaps not even that. How many more times will you watch the full moon rise? Perhaps twenty. And yet it all seems limitless.
 
-- Paul Bowles, *The Sheltering Sky* (h/t [Futility Closet](https://www.futilitycloset.com/2022/04/20/countless/))
+- Paul Bowles, *The Sheltering Sky* (via [Futility Closet](https://www.futilitycloset.com/2022/04/20/countless/))
 
 > 'My father, that old snake, didn’t pass on the secret. He died without telling me. He took it to the grave. Skinflint scoundrel!' 'You see, it’s turned out very well. Come on, come on. Let’s go together, you and I. You’ll cast bells. I’ll paint icons. We’ll go to Trinity Monastery together. What a feast day for the people. You’ve brought them such joy, and you’re crying.'
 
@@ -89,5 +89,9 @@ My heart to home and trade and never live.
 > But what is grief, if not love persevering?
 
 - "Previously On", *WandaVision*
+
+> I don’t expect that anyone will be reading my stuff after I die — I expect that I’ll be wholly forgotten before I die, if I live to a good age — but I almost never think about that. At the end of Middlemarch George Eliot says of Dorothea that “the effect of her being on those around her was incalculably diffusive: for the growing good of the world is partly dependent on unhistoric acts,” and that captures better than I can my convictions on this point. Diffusive is the key word: an influence that subtly spreads, perhaps without anyone noticing. I find that model of influence more encouraging and comforting than any hopes for fame could ever be.
+
+- Alan Jacobs, "DNA", *Snakes and Ladders*
 
 [^1]: I haven't been able to find a reliable source for this quote. I've taken it from [Rob Brezsny's Free Will Astrology](https://freewillastrology.com/horoscopes/) for the week of Sep. 24, 2020.

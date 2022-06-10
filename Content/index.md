@@ -51,7 +51,7 @@ I live in San Francisco with [my fiancée Sherry](http://sherryyuan.me) and our 
 
 This site is generated with the [Publish](https://github.com/JohnSundell/Publish) static site generator, using a theme handwritten by me 🙂 It uses [Tailwind CSS](https://tailwindcss.com) for styling and [Vollkorn](http://vollkorn-typeface.com) as the main font. It's served out of an [AWS S3 bucket](https://aws.amazon.com/s3/) behind [Cloudflare's CDN](https://www.cloudflare.com/), with the infrastructure managed by [Terraform](https://www.terraform.io/).
 
-You can see the full source on [Github](https://github.com/rwblickhan/rwblickhan.org).
+You can find out more about how I built this site in [this post](/technical/2022-site) and see the full source on [Github](https://github.com/rwblickhan/rwblickhan.org).
 
 ## Copyright
 
