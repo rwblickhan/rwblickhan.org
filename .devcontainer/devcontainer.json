@@ -1,9 +1,11 @@
-// Created by taki-on based on 
-// https://github.com/microsoft/vscode-dev-containers/blob/master/containers/swift-4/.devcontainer/devcontainer.json
+// https://finestructure.co/blog/2022/6/9/trying-new-swift-features-on-linux-via-vs-code-dev-containers
 {
-	"name": "Swift 5.6.1",
-	"dockerFile": "Dockerfile",
-	"runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
-	"settings": {},
-	"extensions": []
+    "name": "swift-nightly",
+    "image": "swiftlang/swift:nightly-focal",
+    "extensions": [
+      "sswg.swift-lang"
+    ],
+    "settings": {
+      "lldb.library": "/usr/lib/liblldb.so"
+    }
 }
