@@ -15,7 +15,7 @@
 > The greatest religious problem today is how to be both a mystic and a militant; in other words how to combine the search for an expansion of inner awareness with effective social action, and how to feel one's true identity in both.
 
 - Ursula K. Le Guin[^1]
-    
+
 > If a man will begin with certainties, he shall end in doubts; but if he will be content to begin with doubts, he shall end in certainties.
 
 - Francis Bacon, *The Advancement of Learning* (as quoted in the epitaph of Colin Dickey's *The Unidentified*)

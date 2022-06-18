@@ -4,7 +4,7 @@
 
 After noodling around with various [NaNoWriMo](https://nanowrimo.org) projects during the pandemic, I'm finally tackling a "real" novel that I hope to publish one day, which I'm tentatively calling *A Prince of Foxes*. It's intended to be [sociological epic fantasy](https://blogs.scientificamerican.com/observations/the-real-reason-fans-hate-the-last-season-of-game-of-thrones/) in the vein of *Game of Thrones* or *Dune*. The first draft stands at **70,013 words** out of an estimated 90,000.
 
-###  [Stampy](https://github.com/rwblickhan/Stampy)
+### [Stampy](https://github.com/rwblickhan/Stampy)
 
 I’m experimenting with SwiftUI by building a simple iOS client for [Buttondown](https://buttondown.email/), my favorite email newsletter service. It’s currently available on TestFlight by invite.
 
