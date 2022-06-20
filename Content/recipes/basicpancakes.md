@@ -30,8 +30,8 @@
 9. Repeat until you run out of batter; this will typically yield \~3 pancakes.
 10. Top pancakes with a small amount of butter and maple syrup or honey.
 
-[^1]:	_Not_ baking soda!
+[^1]: Not_ baking soda!
 
-[^2]:	I like to use the microwave - 30 seconds usually does the trick.
+[^2]: I like to use the microwave - 30 seconds usually does the trick.
 
-[^3]:	It generally mixes better if you pour _dry_ into _wet_ specifically.
+[^3]: It generally mixes better if you pour _dry_ into _wet_ specifically.

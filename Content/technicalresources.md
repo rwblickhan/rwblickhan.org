@@ -20,7 +20,7 @@ This is a list of various sites, textbooks, and tools that I've personally found
 
 ## Algorithms
 
-* [Tim Roughgarden's Lecture Notes](http://timroughgarden.org/notes.html): Roughgarden, a professor focused on algorithm design and algorithmic game theory, has a collection of his edited, and quite detailed, lecture notes on those topics. 
+* [Tim Roughgarden's Lecture Notes](http://timroughgarden.org/notes.html): Roughgarden, a professor focused on algorithm design and algorithmic game theory, has a collection of his edited, and quite detailed, lecture notes on those topics.
 
 ## System Design
 

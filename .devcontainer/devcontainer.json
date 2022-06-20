@@ -1,0 +1,11 @@
+// https://finestructure.co/blog/2022/6/9/trying-new-swift-features-on-linux-via-vs-code-dev-containers
+{
+    "name": "swift-nightly",
+    "image": "swiftlang/swift:nightly-focal",
+    "extensions": [
+      "sswg.swift-lang"
+    ],
+    "settings": {
+      "lldb.library": "/usr/lib/liblldb.so"
+    }
+}

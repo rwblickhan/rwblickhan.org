@@ -25,7 +25,6 @@
 9. Put the top half of the bagel on the bottom half.
 10. Enjoy?
 
-
 [^1]: Yes, that's really the ingredient list.
 [^2]: Preferably a type that would make New Yorkers mad, like blueberry or cinnamon raisin.
 [^3]: Does cilantro come in "sprigs"?

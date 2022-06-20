@@ -2,9 +2,9 @@
 
 ### *A Prince of Foxes*
 
-After noodling around with various [NaNoWriMo](https://nanowrimo.org) projects during the pandemic, I'm finally tackling a "real" novel that I hope to publish one day, which I'm tentatively calling *A Prince of Foxes*. It's intended to be [sociological epic fantasy](https://blogs.scientificamerican.com/observations/the-real-reason-fans-hate-the-last-season-of-game-of-thrones/) in the vein of *Game of Thrones* or *Dune*. The first draft stands at **68,096 words** out of an estimated 90,000.
+After noodling around with various [NaNoWriMo](https://nanowrimo.org) projects during the pandemic, I'm finally tackling a "real" novel that I hope to publish one day, which I'm tentatively calling *A Prince of Foxes*. It's intended to be [sociological epic fantasy](https://blogs.scientificamerican.com/observations/the-real-reason-fans-hate-the-last-season-of-game-of-thrones/) in the vein of *Game of Thrones* or *Dune*. The first draft of 79,730 words is **done**!
 
-###  [Stampy](https://github.com/rwblickhan/Stampy)
+### [Stampy](https://github.com/rwblickhan/Stampy)
 
 I’m experimenting with SwiftUI by building a simple iOS client for [Buttondown](https://buttondown.email/), my favorite email newsletter service. It’s currently available on TestFlight by invite.
 
@@ -21,7 +21,7 @@ The best way to keep up with me is to punch in your email below to subscribe to 
       class="embeddable-buttondown-form"
     >
       <label for="bd-email">Enter your email:</label>
-      <input type="email" name="email" class="block mb-4 px-4 py-3 w-full bg-white dark:bg-neutral-900 border border-slate-400 rounded" />
+      <input type="email" id="bd-email" name="email" class="block mb-4 px-4 py-3 w-full bg-white dark:bg-neutral-900 border border-slate-400 rounded" />
       <input type="submit" value="Subscribe" class="block mb-2 px-4 py-3 w-full text-white bg-rwb-blue-light dark:bg-rwb-blue-dark border-0 rounded cursor-pointer" />
     </form>
 </div>
