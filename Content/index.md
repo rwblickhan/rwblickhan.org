@@ -22,7 +22,7 @@ The best way to keep up with me is to punch in your email below to subscribe to 
     >
       <label for="bd-email">Enter your email:</label>
       <input type="email" id="bd-email" name="email" class="block mb-4 px-4 py-3 w-full bg-white dark:bg-neutral-900 border border-slate-400 rounded" />
-      <input type="submit" value="Subscribe" class="block mb-2 px-4 py-3 w-full text-white bg-rwb-blue-light dark:bg-rwb-blue-dark border-0 rounded cursor-pointer" />
+      <input type="submit" value="Subscribe" class="block mb-2 px-4 py-3 w-full text-white dark:text-rwb-text-dark bg-rwb-link-light dark:bg-rwb-button-background-dark border-0 rounded cursor-pointer" />
     </form>
 </div>
 
